@@ -42,19 +42,19 @@ quarto render
 
 The rendered site is written to `_site/`. You do not need to upload `_site/` manually because the GitHub Actions workflow renders it on GitHub.
 
+Note: this website currently lives in the repository's `h/` folder. For GitHub to detect the workflow, the active workflow file must live one level above this folder at `../.github/workflows/publish.yml`. That workflow renders the site from `h/` and deploys `h/_site`.
+
 ## Upload To GitHub
 
 1. Create a new public GitHub repository, for example `contrust`.
-2. Replace `YOUR-GITHUB-USERNAME` in `_quarto.yml` with your GitHub username.
-3. From this folder, initialise git and push:
+2. Check that `_quarto.yml` uses your GitHub username and repository name.
+3. From the repository root, one folder above this website folder, commit and push:
 
 ```bash
-git init
-git add .
-git commit -m "Add CONTRUST website"
-git branch -M main
-git remote add origin https://github.com/YOUR-GITHUB-USERNAME/contrust.git
-git push -u origin main
+cd /Users/danieldevine/Documents/Codex/2026-08-04
+git add -A
+git commit -m "Update CONTRUST website"
+git push
 ```
 
 4. On GitHub, open the repository and go to **Settings > Pages**.
@@ -72,7 +72,10 @@ https://YOUR-GITHUB-USERNAME.github.io/contrust/
 After editing pages, run:
 
 ```bash
+cd /Users/danieldevine/Documents/Codex/2026-08-04/h
 quarto render
+
+cd /Users/danieldevine/Documents/Codex/2026-08-04
 git add .
 git commit -m "Update website"
 git push

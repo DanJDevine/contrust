@@ -29,11 +29,12 @@ jobs:
 
       - name: Render website
         run: quarto render
+        working-directory: h
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: _site
+          path: h/_site
 
   deploy:
     environment:
