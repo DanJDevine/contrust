@@ -59,7 +59,7 @@ git push -u origin main
 
 4. On GitHub, open the repository and go to **Settings > Pages**.
 5. Set **Build and deployment > Source** to **GitHub Actions**.
-6. Open the **Actions** tab and run the **Publish website** workflow, or push another commit.
+6. Open the **Actions** tab and run the **Publish website** workflow, or push another commit. If you do not see it yet, the alternative is simply to push a new commit to `main`; GitHub should detect `.github/workflows/publish.yml` and run it automatically.
 
 For a repository named `contrust`, the site will usually appear at:
 
