@@ -1,0 +1,38 @@
+---
+title: "Data"
+description: "Data and replication resources for CONTRUST."
+---
+
+## Data Resources
+
+CONTRUST will create several data resources for studying political trust and policy support. This page can be relinked in the navigation when those resources are ready for public release.
+
+::: {.data-grid}
+::: {.data-item}
+### Harmonised Panel Data
+
+Status: planned  
+Scope: existing individual-level panel studies with repeated political trust measures  
+Access: add repository or archive link when available
+:::
+
+::: {.data-item}
+### Original Panel And Experimental Data
+
+Status: planned  
+Scope: three-wave panel surveys with embedded experiments in six European countries  
+Access: add repository, archive, and codebook links when available
+:::
+
+::: {.data-item}
+### Qualitative Data And Documentation
+
+Status: planned  
+Scope: focus group materials and documentation from the qualitative validation work  
+Access: add details on access conditions when available
+:::
+:::
+
+## Ethics And Access
+
+CONTRUST will follow University of Southampton ethical review and research governance procedures. Data sharing will reflect consent, anonymisation, GDPR, and any restrictions required by fieldwork providers or institutional review.

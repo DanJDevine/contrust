@@ -1,0 +1,52 @@
+---
+title: "Team"
+description: " "
+---
+
+## Core Team
+
+::: {.people-grid}
+::: {.person}
+### [Daniel Devine](https://djdevine.org)
+
+**Principal Investigator**  
+University of Southampton  
+
+[d.devine@soton.ac.uk](d.devine@soton.ac.uk)  
+
+[Homepage](https://djdevine.org)
+
+[BlueSky](https://bsky.app/profile/danjdevine.bsky.social)
+
+[LinkedIn](https://www.linkedin.com/in/dan-devine-5a2a5975/)
+
+:::
+
+::: {.person}
+### Project Assistant
+
+It could be you! Please contact me if you are interested.
+:::
+
+
+::: {.person}
+### Postdoctoral Researcher
+
+It could be you! Please contact me if you are interested.
+:::
+
+::: {.person}
+### Postdoctoral Researcher
+
+It could be you! Please contact me if you are interested.
+
+:::
+
+
+:::
+
+## Wider Network
+
+Advisory board members, project partners, and visiting researchers will be added here as they are confirmed. If you are interested in collaborating, please get in touch
+
+The project is also very happy to be a product of the wider [political trust network](https://www.politicaltrust.eu).

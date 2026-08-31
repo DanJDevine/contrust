@@ -1,0 +1,17 @@
+.hero {
+  background:
+    linear-gradient(90deg, rgba(91, 26, 24, 0.92), rgba(91, 26, 24, 0.62) 52%, rgba(214, 114, 54, 0.25)),
+    url("img/contrust-hero-lorenzetti.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    background:
+      linear-gradient(180deg, rgba(91, 26, 24, 0.92), rgba(91, 26, 24, 0.62)),
+      url("img/contrust-hero-lorenzetti.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}

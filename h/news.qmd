@@ -1,0 +1,24 @@
+---
+title: "News"
+description: "Updates from the CONTRUST project."
+---
+
+## Updates
+
+::: {.news-archive}
+::: {.news-entry}
+### Project Launch
+
+**2027**  
+CONTRUST launches as a 60-month ERC project investigating the consequences of political trust for policy support.
+:::
+
+::: {.news-entry}
+### Recruitment
+
+**2027-2028**  
+The project will recruit two postdoctoral researchers.
+:::
+
+:::
+

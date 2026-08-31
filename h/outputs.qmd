@@ -1,0 +1,94 @@
+---
+title: "Outputs"
+description: "Publications, working papers, presentations, and public outputs from CONTRUST."
+bibliography: outputs/contrust-publications.bib
+nocite: |
+  @*
+---
+
+## Project Outputs
+
+<!-- Publications are generated from the BibTeX file at `outputs/contrust-publications.bib`. Working papers, presentations, and public engagement outputs can be added as cards below. -->
+
+<div class="output-toolbar" role="group" aria-label="Filter outputs by type">
+  <button type="button" class="output-filter-button is-active" data-filter-type="all" aria-pressed="true">All outputs</button>
+  <button type="button" class="output-filter-button" data-filter-type="publication" aria-pressed="false">Publications</button>
+  <button type="button" class="output-filter-button" data-filter-type="working-paper" aria-pressed="false">Working papers</button>
+  <button type="button" class="output-filter-button" data-filter-type="presentation" aria-pressed="false">Presentations</button>
+  <button type="button" class="output-filter-button" data-filter-type="engagement" aria-pressed="false">Public engagement</button>
+</div>
+
+::: {.output-list .filterable-output-list}
+::: {.output-item data-output-type="publication"}
+### Publications
+
+<span class="output-type-label">Publication</span>
+
+<!-- Items added to `outputs/contrust-publications.bib` will appear here after running `quarto render`. -->
+
+::: {#refs .publication-refs}
+:::
+:::
+
+::: {.output-item data-output-type="working-paper"}
+### Working Paper
+
+<span class="output-type-label">Working paper</span>
+
+<!-- Author names. Year. "Working paper title." Add abstract, preprint, PDF, or project repository links here. -->
+:::
+
+::: {.output-item data-output-type="presentation"}
+### Conference Presentation
+
+<span class="output-type-label">Presentation</span>
+
+<!-- Conference, workshop, or public event name. Add date, location, slides, recording, or paper link here. -->
+:::
+
+::: {.output-item data-output-type="engagement"}
+### Public Engagement
+
+<span class="output-type-label">Public engagement</span>
+
+<!-- Blog post, briefing, media contribution, policy note, or public-facing output. Add the live link and short description here. -->
+:::
+:::
+
+<p id="output-empty-message" class="output-empty-message" hidden>No outputs match this type yet.</p>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = Array.from(document.querySelectorAll("[data-filter-type]"));
+  const items = Array.from(document.querySelectorAll("[data-output-type]"));
+  const emptyMessage = document.getElementById("output-empty-message");
+
+  if (buttons.length === 0) return;
+
+  const applyFilter = (selectedType) => {
+    let visibleCount = 0;
+
+    buttons.forEach((button) => {
+      const isActive = button.dataset.filterType === selectedType;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+
+    items.forEach((item) => {
+      const shouldShow = selectedType === "all" || item.dataset.outputType === selectedType;
+      item.hidden = !shouldShow;
+      if (shouldShow) visibleCount += 1;
+    });
+
+    if (emptyMessage) {
+      emptyMessage.hidden = visibleCount !== 0;
+    }
+  };
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => applyFilter(button.dataset.filterType));
+  });
+
+  applyFilter("all");
+});
+</script>

@@ -1,0 +1,133 @@
+---
+title: "CONTRUST"
+description: " "
+page-layout: full
+toc: false
+body-classes: "homepage"
+---
+
+::: {.hero .column-screen}
+::: {.hero-copy}
+# CONTRUST
+
+<!-- ## Trust, contestation, and democratic governance -->
+
+CONTRUST is an ERC-funded (2027-2032) project examining whether, when, and how political trust shapes public support for major policy action. The project focuses on climate and the environment, redistribution and inequality, and crime prevention across European democracies.
+
+[Project Overview](project.qmd){.hero-button}
+[Outputs](outputs.qmd){.hero-button .secondary}
+
+<span class="hero-credit">Header image: Ambrogio Lorenzetti, <em>Effects of Good Government in the City</em>, Siena, c. 1338-39.</span>
+:::
+:::
+
+::: {.content-band .column-screen}
+::: {.section-inner}
+## At A Glance
+
+::: {.metric-grid}
+::: {.metric}
+**Funding**
+
+European Research Council (€1.5m) (Project # 101302732)
+:::
+
+::: {.metric}
+**Project Period**
+
+2027-2032
+:::
+
+::: {.metric}
+**Principal Investigator**
+
+Daniel Devine, University of Southampton
+:::
+
+::: {.metric}
+**Research Areas**
+
+Political trust, policy support, public opinion
+:::
+:::
+:::
+:::
+
+::: {.focus-band .column-screen}
+::: {.section-inner .focus-section}
+## Overview
+
+::: {.feature-grid}
+::: {.feature}
+### Research Questions
+
+Political trust is often treated as a vital democratic resource, but we still know too little about its consequences. CONTRUST asks whether trust actually changes support for demanding policies, and under what conditions it does so.
+:::
+
+::: {.feature}
+### Approach
+
+Over the course of the five years, the project will develop new theory and measures, testing it through a range of methods embedded in an original three-wave panel survey in six countries, on harmonised panel data, and through collaborative meta-studies.
+:::
+
+::: {.feature}
+### Contribution
+
+CONTRUST develops a new framework for understanding trust as a relationship between citizens, political actors and institutions, and specific policy tasks. It will produce new evidence, open resources, and collaborative analyses for the wider research community.
+:::
+:::
+:::
+:::
+
+::: {.content-band .muted .column-screen}
+::: {.section-inner}
+## Latest
+
+::: {.news-list}
+::: {.news-item}
+**January 2027**
+
+The project will officially begin.
+:::
+
+::: {.news-item}
+**Recruitment**
+
+The project will recruit two postdoctoral positions for three years each. If you are interested, please do get in contact even if the adverts aren't up yet.
+
+:::
+:::
+:::
+:::
+
+<!-- ::: -->
+
+<!-- [More News](news.qmd){.text-link} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: {.output-band .column-screen} -->
+<!-- ::: {.section-inner .outputs-section} -->
+<!-- ## Featured Outputs -->
+
+<!-- ::: {.output-row} -->
+<!-- ::: {.output-card} -->
+<!-- ### Working Paper -->
+
+<!-- Theory and review paper on the consequences of political trust for policy support. -->
+<!-- ::: -->
+
+<!-- ::: {.output-card} -->
+<!-- ### Dataset -->
+
+<!-- Open code and documentation for harmonising existing longitudinal trust data, followed by original cross-national panel and experimental data. -->
+<!-- ::: -->
+
+<!-- ::: {.output-card} -->
+<!-- ### Presentation -->
+
+<!-- Conference papers, project workshops, and collaborative meta-studies with external research teams. -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->

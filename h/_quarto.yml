@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "CONTRUST"
+  description: "Academic project website for CONTRUST."
+  site-url: "https://DanJDevine.github.io/contrust/"
+  repo-url: "https://github.com/DanJDevine/contrust"
+  repo-actions: [edit, issue]
+  navbar:
+    pinned: true
+    logo: assets/img/navbar-logo-strip.png
+    logo-alt: "University of Southampton and ERC logos"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: project.qmd
+        text: Project
+      - href: team.qmd
+        text: Team
+      - href: outputs.qmd
+        text: Outputs
+      - href: news.qmd
+        text: News
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "CONTRUST"
+    right:
+      - text: GitHub
+        href: "https://github.com/DanJDevine/contrust"
+      - text: Contact
+        href: contact.qmd
+
+format:
+  html:
+    theme: cosmo
+    css:
+      - assets/styles.css
+      - assets/hero.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-copy: true
+    anchor-sections: true

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="42" viewBox="0 0 178 42" role="img" aria-labelledby="title desc">
+  <title id="title">Project and funder logo placeholders</title>
+  <desc id="desc">Two simple placeholders for funder and institutional logos.</desc>
+  <rect width="178" height="42" rx="6" fill="#fff8f1"/>
+  <rect x="1" y="1" width="176" height="40" rx="5" fill="none" stroke="#f1bb7b" stroke-width="2"/>
+  <rect x="10" y="9" width="70" height="24" rx="4" fill="#ffffff" stroke="#5b1a18" stroke-width="1.5"/>
+  <text x="45" y="25" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#5b1a18">ERC</text>
+  <rect x="98" y="9" width="70" height="24" rx="4" fill="#ffffff" stroke="#d67236" stroke-width="1.5"/>
+  <text x="133" y="25" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#5b1a18">HOST</text>
+</svg>
