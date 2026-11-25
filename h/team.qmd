@@ -32,13 +32,14 @@ It could be you! Please contact me if you are interested.
 ::: {.person}
 ### Postdoctoral Researcher
 
-It could be you! Please contact me if you are interested.
+It could be you! Please contact me if you are interested. The first will be hired to start in around May or June 2027. 
+
 :::
 
 ::: {.person}
 ### Postdoctoral Researcher
 
-It could be you! Please contact me if you are interested.
+It could be you! Please contact me if you are interested. The second will be hired to start in 2028. 
 
 :::
 
@@ -47,6 +48,12 @@ It could be you! Please contact me if you are interested.
 
 ## Wider Network
 
-Advisory board members, project partners, and visiting researchers will be added here as they are confirmed. If you are interested in collaborating, please get in touch
+Advisory committee members, project partners, and visiting researchers will be added here as they are confirmed. If you are interested in collaborating, please get in touch
+
+### Advisory committee
+
+I am very happy to have a committee of excellent researchers who have managed large projects whose expertise and experience I can draw on at key parts of the project. This is still in development. In alphabetical order:
+
+**Anja Neundorf** (University of Glasgow, ERC Consolidator Grant *DEMED*); **Jennifer Oser** (Ben-Gurion University of the Negev, ERC Starting Grant *PRD*); **Jason Reifler** (University of Southampton, ERC Consolidator Grant *DEBUNKER*); **Tom van der Meer** (University of Amsterdam, ERC Consolidator Grant *CRITICALTRUST*); **Sofia Vasilopoulou** (King's College London, ERC Consolidator Grant *INEQCHANGE*); **Markus Wagner** (University of Vienna, ERC Consolidator Grant *PARTISAN*)
 
 The project is also very happy to be a product of the wider [political trust network](https://www.politicaltrust.eu).
